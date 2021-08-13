@@ -1,10 +1,10 @@
 include <boardgame_insert_toolkit_lib.2.scad>;
 
 // determines whether lids are output.
-g_b_print_lid = false;
+g_b_print_lid = true;
 
 // determines whether boxes are output.
-g_b_print_box = true; 
+g_b_print_box = false; 
 
 // Focus on one box
 // g_isolated_print_box = ""; 
@@ -39,7 +39,7 @@ data =
             [ BOX_SIZE_XYZ,                                     [65, 50, 15] ],
             [ BOX_LID,
                 [
-                    [ LID_SOLID_B, f],
+                    [ LID_SOLID_B, t],
                     [LID_FIT_UNDER_B, f]
                 ]
             ],
