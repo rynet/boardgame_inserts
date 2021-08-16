@@ -36,7 +36,7 @@ data =
 [
     [   "jf_fruitholder",
         [
-            [ BOX_SIZE_XYZ,                                     [150, 90, 40] ],
+            [ BOX_SIZE_XYZ,                                     [150, 110, 40] ],
             [ BOX_LID,
                 [
                     [ LID_SOLID_B, f],
@@ -45,7 +45,7 @@ data =
             ],
             [ BOX_COMPONENT,
                 [
-                    [CMP_COMPARTMENT_SIZE_XYZ,  [ 145, 85, 38] ]
+                    [CMP_COMPARTMENT_SIZE_XYZ,  [ 145, 105, 38] ]
                 ]
             ],                            
         ]
