@@ -36,7 +36,7 @@ data =
 [
     [   "jf_icecreambox",
         [
-            [ BOX_SIZE_XYZ,                                     [58, 58, 48] ],
+            [ BOX_SIZE_XYZ,                                     [58, 78, 48] ],
             [ BOX_LID,
                 [
                     [ LID_SOLID_B, f],
@@ -45,7 +45,7 @@ data =
             ],
             [ BOX_COMPONENT,
                 [
-                    [CMP_COMPARTMENT_SIZE_XYZ,  [ 55, 55, 45] ],
+                    [CMP_COMPARTMENT_SIZE_XYZ,  [ 55, 75, 45] ],
                 ]
             ],                            
         ]
